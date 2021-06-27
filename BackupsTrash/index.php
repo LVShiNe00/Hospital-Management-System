@@ -106,7 +106,7 @@ if(isset($_POST['docsub']))
 
     
     function timeFunction() {
- setTimeout(function(){ loadfun(); }, 5000);
+ setTimeout(function() loadfun(); , 5000);
 }
 
 	function loadfun()
